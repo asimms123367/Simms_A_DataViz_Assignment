@@ -1,11 +1,53 @@
-/* quick reset */
-
-* {
-	border:none;
-	padding: 0;
-	margin: 0;
+.hidden
+{
+	display: none;
 }
 
-body { font-size: 16px; font-family: "Arial", "helvetica", sans-serif; }
+header{
+	display: flex;
+	justify-content: space-between;
+}
+
+header ul li{
+	display: inline;
+
+}
+
+h1 {
+	color: navy;
+	margin-left: 20px;
+	text-align: center;
+}
+
+p {
+	font-family: verdana;
+	font-size: 20px;
+}
+
+.grid{
+	display: grid;
+	grid-template-columns: auto auto;
+} 
+.argument{
+	padding: 16px;
+}
+
+.argument img{ 
+	width: 400px;
+	height: 400px;
+}
+
+.skiimage {
+
+	text-align: center;
+	width: 300px;
+	height: 200px;
+}
+
+body { 
+	font-size: 16px; font-family: "Arial", "helvetica", sans-serif; 
+}
 
 .hidden { display: none; }
+
+.data-graphic {border: thin dashed blue; width: 30%;}
