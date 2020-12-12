@@ -1,5 +1,3 @@
-# Simms_A_DataViz_Assignment
-
 
 
 ##My Data Visualization Project
