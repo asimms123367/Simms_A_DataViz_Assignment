@@ -10,18 +10,23 @@ header{
 
 header ul li{
 	display: inline;
-
 }
 
 h1 {
-	color: navy;
-	margin-left: 20px;
+	color: red;
+	margin-left: 30px;
 	text-align: center;
+}
+.container{
+	width: 920px
+	margin-left auto
+	
 }
 
 p {
 	font-family: verdana;
-	font-size: 20px;
+	font-size: 16px;
+	color: navy
 }
 
 .grid{
@@ -29,23 +34,18 @@ p {
 	grid-template-columns: auto auto;
 } 
 .argument{
-	padding: 16px;
+	padding: 30px;
 }
 
 .argument img{ 
-	width: 400px;
-	height: 400px;
+	width: 350px;
+	height: 300px;
 }
 
-.skiimage {
-
-	text-align: center;
-	width: 300px;
-	height: 200px;
-}
 
 body { 
-	font-size: 16px; font-family: "Arial", "helvetica", sans-serif; 
+	font-size: 14px; font-family: "Arial", "helvetica", sans-serif; 
+
 }
 
 .hidden { display: none; }
